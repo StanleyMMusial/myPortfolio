@@ -94,3 +94,19 @@
   nav {
       margin-top: 60px;
  }
+ @media (max-width: 768px) {
+   .image-grid {
+    flex-direction: column;
+   }
+   .p1 {
+     margin-top: 0px;
+   }
+ }
+ @media (max-width: 480px) {
+  .image-grid {
+    flex-direction: column;
+ }
+ .p1 {
+  margin-top: 0px;
+}
+ }
